@@ -1,3 +1,18 @@
 1 Задание:
 grep -o '^[^:]*' etc/passwd | sort
-![task1_1](blob:https://web.telegram.org/1bc4eead-bf6b-4ff8-adcd-fcd8ff951dd7)
+![task1_1]()
+2 Задание:
+cat /etc/protocols | sort -n -r -k 2 | head -n 5 | awk '{print $2" "$1}'
+![task1_2]()
+3 Задание:
+#!/bin/bash
+if [ $# -eq 0 ]; then
+    echo "Пожалуйста, укажите текст для баннера."
+    exit 1
+fi
+text_length=${#1}
+banner_length=$((text_length + 4))
+echo "$(printf '+%.0s' $(seq 1 $banner_length))"
+echo "| $1 |"
+echo "$(printf '+%.0s' $(seq 1 $banner_length))"
+![task1_3]()
