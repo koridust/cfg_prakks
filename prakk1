@@ -1,3 +1,3 @@
 1 Задание:
 grep -o '^[^:]*' etc/passwd | sort
-![task1_1](file:///C:/Users/student/Pictures/123.png)
+![task1_1](blob:https://web.telegram.org/1bc4eead-bf6b-4ff8-adcd-fcd8ff951dd7)
