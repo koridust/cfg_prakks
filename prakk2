@@ -1,15 +1,13 @@
   ЗАДАНИЕ 1:
+Для того, чтобы получить служебную информацию пакета надо воспользоваться командой
+pip show <package_name>.
 
-Для того, чтобы получить служебную информацию пакета надо воспользоваться командой ```pip show <package_name>```.
-
-**Решение**:
-
-```bash
+Решение:
+bash
 pip show matplotlib
-```
 
 В качестве ответа получаем служебную информацию:
-```bash
+bash
 Name: matplotlib
 Version: 3.9.2
 Summary: Python plotting package
@@ -17,40 +15,32 @@ Home-page:
 Author: John D. Hunter, Michael Droettboom
 Author-email: Unknown <matplotlib-users@python.org>
 License: License agreement for matplotlib versions 1.3.0 and later
-```
 
-Для того, чтобы получить пакет, не используя пакетный менеджер, можно клонировать репозиторий к себе, а затем прописать ```python setup.py install```.
+  ЗАДАНИЕ 2:
+Для того, чтобы получить служебную информацию пакета надо воспользоваться командой
+npm info <package_name>.
 
-### Задание 2
-
-Для того, чтобы получить служебную информацию пакета надо воспользоваться командой ```npm info <package_name>```.
-
-**Решение**:
-
-```bash
+Решение:
+bash
 npm info express
-```
 
 В качестве ответа получим служебную информацию:
-```bash
+bash
 express@4.19.2 | MIT | deps: 31 | versions: 276
 Fast, unopinionated, minimalist web framework
 http://expressjs.com/
-
 keywords: express, framework, sinatra, web, http, rest, restful, router, app, api
-
 dist
 .tarball: https://registry.npmjs.org/express/-/express-4.19.2.tgz
 .shasum: e25437827a3aa7f2a827bc8171bbbb664a356465
 .integrity: sha512-5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==
 .unpackedSize: 214.8 kB
 ...
-```
 
-Для установки пакета напрямую из репозитория надо клонировать этот репозиторий к себе, а затем прописать команду ```npm install```.
+Для установки пакета напрямую из репозитория надо клонировать этот репозиторий к себе, а затем прописать команду
+npm install
 
-
-### Задание 3
+  ЗАДАНИЕ 3:
 
 **Граф для matplotlib**:
 ```
